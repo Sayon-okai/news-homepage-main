@@ -1,0 +1,107 @@
+@import url(https://fonts.googleapis.com/css?family=Inter:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+header {
+    display: flex;
+    height: 150px;
+    padding: 5% 10% 10% 10%;
+   
+    justify-content: space-between;
+}
+
+.header-nav {
+    margin-top: 27px;
+}
+
+.header-nav ul li{
+    display: inline-flex;
+    margin-right: 20px;
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
+    font-weight: 200;
+}
+
+.header-nav ul li a {
+    text-decoration: none;
+    color: hsl(236, 13%, 42%);
+}
+
+/* Logo */
+.logo {
+    width: 100px;
+    height: 75px;
+}
+
+/* hero-pic */
+.hero-pic {
+    width: 680px;
+    height: 340px;
+   
+}
+
+main {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    align-self: center;
+    gap: 20px;
+    padding: 0 5% 0 10%;
+}
+
+.web3-text {
+    display: flex;
+}
+
+.web-gen h1 {
+    float: left;
+    width: 30%;
+    
+}
+
+
+.side-article {
+    background-color: hsl(240, 100%, 5%);
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    grid-column: span 2;
+    grid-row: span 3;
+    gap: 10px;
+    padding: 10px;
+    text-align: justify;
+    
+}
+
+.side-article article {
+    border: none;
+    padding: 10px;
+  
+}
+
+.side-article article p {
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    color:  hsl(236, 13%, 42%);
+    margin: 10px 0 10px 0;
+}
+
+.side-article article  h3 {
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
+    color: hsl(36, 100%, 99%);
+}
+
+.special-text {
+     font-family: 'Inter', Arial, Helvetica, sans-serif;
+     font-size: 2em;
+     font-weight: 800;
+     color: hsl(35, 77%, 62%);
+     margin: 20px 0 10px 10px;
+}
+
+
+
