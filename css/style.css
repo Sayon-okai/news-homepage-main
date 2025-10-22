@@ -7,12 +7,50 @@
 
 }
 
+/* Common sorting */
+.side-article a {
+    text-decoration: none;
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
+        margin-bottom: 24px;
+        color: hsl(36, 100%, 99%);
+}
+
+
+.special-info a {
+       text-decoration: none;
+        font-family: 'Inter', Arial, Helvetica, sans-serif;
+        margin-bottom: 24px;
+        color: hsl(240, 100%, 5%);
+}
+
+/* active states */
+.header-nav ul li a:hover {
+    color: hsl(35, 77%, 62%);
+    cursor: pointer;
+
+}
+
+.special-info a:hover {
+    color: hsl(5, 85%, 63%);
+    cursor: pointer;
+}
+
+.side-article a:hover {
+        color: hsl(35, 77%, 62%);
+        cursor: pointer;
+} 
+
+button:hover {
+        background-color: hsl(240, 100%, 5%);
+        color: hsl(36, 100%, 99%);
+        cursor: pointer;
+}
+
 
 header {
     display: flex;
     height: 150px;
     padding: 5% 10% 10% 10%;
-   
     justify-content: space-between;
 }
 
@@ -31,6 +69,11 @@ header {
     text-decoration: none;
     color: hsl(236, 13%, 42%);
 }
+
+
+
+
+
 
 /* Logo */
 .logo {
@@ -126,11 +169,6 @@ main {
     margin: 10px 0 10px 0;
 }
 
-.side-article article  h3 {
-    font-family: 'Inter', Arial, Helvetica, sans-serif;
-    margin-bottom: 24px;
-    color: hsl(36, 100%, 99%);
-}
 
 .special-text {
      font-family: 'Inter', Arial, Helvetica, sans-serif;
@@ -176,6 +214,7 @@ main {
         font-size: 1em;
         margin-bottom: 10px;
 }
+
 
 
 
