@@ -53,20 +53,56 @@ main {
     padding: 0 5% 0 10%;
 }
 
-.web3-text {
+.web-gen {
     display: flex;
-}
-
-.web-gen h1 {
-    float: left;
-    width: 30%;
+    gap: 20px;
     
 }
 
+.web3-text {
+    
+    width: 50%;
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
+    font-size: 3em;
+    font-weight: 800;
+   
+
+    
+}
+
+.web-gen .info-text {
+
+        width: 50%;
+        font-family: 'Inter', Arial, Helvetica, sans-serif;
+        font-size: 16px;
+        font-weight: 200;
+        margin-top: 26px;
+}
+
+/* button */
+.read-more {
+    width: 60%;
+    height: 40px;
+    display: block;
+    margin: 20px 0 0 0;
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    background-color: hsl(5, 85%, 63%);
+    border: none;
+    /* border-radius: 10px; */
+    letter-spacing: 5px;
+
+
+
+    
+}
 
 .side-article {
     background-color: hsl(240, 100%, 5%);
     width: 80%;
+    height: 522px;
     display: flex;
     flex-direction: column;
     grid-column: span 2;
@@ -85,13 +121,14 @@ main {
 
 .side-article article p {
     font-family: 'Inter', Arial, Helvetica, sans-serif;
-    font-size: 10px;
+    font-size: 16px;
     color:  hsl(236, 13%, 42%);
     margin: 10px 0 10px 0;
 }
 
 .side-article article  h3 {
     font-family: 'Inter', Arial, Helvetica, sans-serif;
+    margin-bottom: 24px;
     color: hsl(36, 100%, 99%);
 }
 
@@ -102,6 +139,8 @@ main {
      color: hsl(35, 77%, 62%);
      margin: 20px 0 10px 10px;
 }
+
+
 
 
 
