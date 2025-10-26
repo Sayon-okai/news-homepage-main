@@ -46,17 +46,13 @@ button:hover {
         cursor: pointer;
 }
 
-
 header {
-    
     height: 150px;
     padding: 7% 10% 5% 10%;
     margin-bottom: 50px;
     background-color: #fff;
     position: sticky;
     top: 0;
-
-    
 }
 
 nav {
@@ -79,8 +75,6 @@ nav ul {
 
 nav li {
     height: 50px;
-
-
 }
 
 nav a {
@@ -115,10 +109,7 @@ nav a {
 
 .sidebar li {
     width: 100%;
-
 }
-
-
 .sidebar a {
     width: 100%;
 }
@@ -147,14 +138,11 @@ nav a {
     height: 75px;
 
 }
-
 /* hero-pic */
 .hero-pic {
     width: 680px;
-    height: 340px;
-   
+    height: 340px;  
 }
-
 main {
     display: grid;
     grid-template-columns: 2fr 1fr 1fr;
@@ -162,33 +150,23 @@ main {
     gap: 20px;
     padding: 0 5% 0 10%;
 }
-
 .web-gen {
     display: flex;
-    gap: 20px;
-    
+    gap: 20px;  
 }
-
-.web3-text {
-    
+.web3-text {   
     width: 50%;
     font-family: 'Inter', Arial, Helvetica, sans-serif;
     font-size: 3em;
-    font-weight: 800;
-   
-
-    
+    font-weight: 800;   
 }
-
 .web-gen .info-text {
-
         width: 50%;
         font-family: 'Inter', Arial, Helvetica, sans-serif;
         font-size: 16px;
         font-weight: 200;
         margin-top: 26px;
 }
-
 /* button */
 .read-more {
     width: 60%;
@@ -202,13 +180,8 @@ main {
     background-color: hsl(5, 85%, 63%);
     border: none;
     /* border-radius: 10px; */
-    letter-spacing: 5px;
-
-
-
-    
+    letter-spacing: 5px; 
 }
-
 .side-article {
     background-color: hsl(240, 100%, 5%);
     width: 80%;
@@ -220,23 +193,18 @@ main {
     gap: 10px;
     padding: 10px;
     text-align: justify;
-    
 }
-
 .side-article article {
     border: none;
     padding: 10px;
-  
-}
 
+}
 .side-article article p {
     font-family: 'Inter', Arial, Helvetica, sans-serif;
     font-size: 16px;
     color:  hsl(236, 13%, 42%);
     margin: 10px 0 10px 0;
 }
-
-
 .special-text {
      font-family: 'Inter', Arial, Helvetica, sans-serif;
      font-size: 2em;
@@ -244,7 +212,6 @@ main {
      color: hsl(35, 77%, 62%);
      margin: 20px 0 10px 10px;
 }
-
 .special-info {
     display: flex;
     gap: 20px;
@@ -254,36 +221,29 @@ main {
 .special-info article {
     width: 35%;
 }
-
 .special-info .nums {
        font-family: 'Inter', Arial, Helvetica, sans-serif;
         font-size: 2em;
         color: hsl(5, 85%, 63%);
         margin: 0   0   10px  0;
 }
-
 .small-size-img {
     width: 100px;
     height: auto;
     float: left;
     margin-right: 15px;
-
 }
-
 .special-info p {
         font-family: 'Inter', Arial, Helvetica, sans-serif;
         font-size: 13px;
         color: hsl(236, 13%, 42%);
 }
-
 .special-info h3 {
         font-family: 'Inter', Arial, Helvetica, sans-serif;
         font-size: 1em;
         margin-bottom: 10px;
 }
-
-
-@media (min-width: 900px) and (max-width: 1200px) {
+@media (max-width: 1200px) {
     /* hero-pic */
         .hero-pic {
             width: 500px;
@@ -305,12 +265,11 @@ main {
     
         
 }
-@media (min-width: 600px) and (max-width: 899px) {
+@media   (max-width: 899px) {
     /* hero-pic */
         .hero-pic {
             width: 400px;
             height: 240px;
-    
         }
 
    main {
@@ -333,7 +292,6 @@ main {
     gap: 5px;
     padding: 5px;
 
-
    }
 
   .side-article article p {
@@ -347,14 +305,10 @@ main {
    }
 
   .web3-text {
-
     width: 100%;
     font-family: 'Inter', Arial, Helvetica, sans-serif;
     font-size: 2.5em;
     font-weight: 800;
-
-
-
 }
 
 .web-gen .info-text {
@@ -372,8 +326,6 @@ main {
 }
         
 }
-
-
 
 @media (max-width: 580px) {
 /* hero-pic */
