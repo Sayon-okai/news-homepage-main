@@ -60,9 +60,11 @@ header {
 }
 
 nav {
-    height: 150px;
+    height: 100px;
     width: 100%;
      background-color: #fff;
+    position: sticky;
+        top: 0;
      
      
 }
@@ -343,14 +345,31 @@ main {
     font-size: 14px;
     word-spacing: -1px;
    }
-    
-   .special-text {
-       font-family: 'Inter', Arial, Helvetica, sans-serif;
-       font-size: 1.5em;
-       font-weight: 800;
-       color: hsl(35, 77%, 62%);
-       margin: 10px 0 5px 5px;
-   }
+
+  .web3-text {
+
+    width: 100%;
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
+    font-size: 2.5em;
+    font-weight: 800;
+
+
+
+}
+
+.web-gen .info-text {
+
+    width: 100%;
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    font-weight: 200;
+    margin-top: 26px;
+}
+
+/* button */
+.read-more {
+    font-size: 9px;
+}
         
 }
 
