@@ -18,15 +18,31 @@
 <body>
 
   <header>
-    <!-- Logo -->
-     <a href=""><img src="./assets/images/logo.svg" alt="World News logo" class="logo"></a>
-    <nav class="main-nav">
-      <ul>
+    
+   
+    <nav >
+      <!-- sidebar-nav -->
+      <ul class="sidebar">
+       <li class="menu-closed"><a href="#"><img src="./assets/images/icon-menu-close.svg" alt="close menu"></a></li>
         <li><a href="#">Home</a></li>
         <li><a href="">New</a></li>
         <li><a href="">Popular</a></li>
         <li><a href="">Trending</a></li>
         <li><a href="">Categories</a></li>
+     
+      </ul>
+
+       
+      <!-- main-nav bra -->
+      <ul class="navbar">
+          <!-- Logo -->
+        <li><img src="./assets/images/logo.svg" alt="World News logo" class="logo"></img></li>
+        <li class="hideOn-small-screen"><a href="#">Home</a></li>
+        <li class="hideOn-small-screen"><a href="">New</a></li>
+        <li class="hideOn-small-screen"><a href="">Popular</a></li>
+        <li class="hideOn-small-screen"><a href="">Trending</a></li>
+        <li class="hideOn-small-screen"><a href="">Categories</a></li>
+        <li class="menu-open" onclick="showSideBar()"><a href="#"><img src="./assets/images/icon-menu.svg" alt=""></a></li>
       </ul>
     </nav>
   </header>
@@ -103,5 +119,10 @@
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Sayon Teah Okai</a>.
   </div>
+
+  <!-- script -->
+   <script src="./js/main.js"></script>
+   <!-- jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 </body>
 </html>
