@@ -20,8 +20,8 @@
 
 Users should be able to:
 
-- This is a solution to the [News homepage challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/news-homepage-H6SWTa1MFl). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
-
+- View the optimal layout for the interface depending on their device's screen size
+- See hover and focus states for all interactive elements on the page
 
 ### Screenshot
 
@@ -48,11 +48,7 @@ Users should be able to:
 
 ### What I learned
 
-I was able to use jquery to add interactivity to project using click handler 
-and other jquery method 
-
-
-
+I was able to used css and jQuery to style and add interactivity to side bar
 
 ```css
   .sidebar {
@@ -69,6 +65,19 @@ and other jquery method
     justify-content: flex-start;
     padding-top: 10%;
 }
+```
+```js
+
+
+function showSideBar() {
+    $(".sidebar").css("display", "flex");
+}
+
+function hideSideBar() {
+    $(".sidebar").css("display", "none");
+}
+
+
 ```
 
 ## Author

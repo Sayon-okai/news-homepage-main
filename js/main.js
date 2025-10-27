@@ -9,9 +9,6 @@ function hideSideBar() {
 }
 
 
-if ($(".sidebar").css() === "display: none") {
-    document.reload();
-}
 
 
 
